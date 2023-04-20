@@ -65,11 +65,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "Tennis club",
+        "meta_descr": "Sample desc",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/document-1440x960.jpeg"
       },
       "components": [
         {
