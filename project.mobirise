@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index_old.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "stepm5",
       "title": "StepM5",
@@ -67,7 +67,7 @@
     }
   },
   "pages": {
-    "index_old.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "Spin Tennis Academy - old",
