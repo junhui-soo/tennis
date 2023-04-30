@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="assets/smart-cart/minicart-theme.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/recaptcha.css">
   <link href="assets/fonts/style.css" rel="stylesheet">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap"></noscript>
@@ -30,17 +31,7 @@
   
   
   <style>
-.cid-tCP28UJ9Ne .navbar {
-    background: #fcfbf5;
-}
-.hero-container {
-  padding: 0.8rem 1rem 1rem;
-}
-@media screen and (min-width: 768px) {
-  .hero-container {
-    padding: 2rem 4rem 4rem;
-  }
-}
+
 </style>
 
 </head>
@@ -98,9 +89,13 @@
     </nav>
 </section>
 
-<div class="hero-container cid-tCSpm31sIz" style="background-color: #fcfbf5;" id="home-hero" data-rv-view="2483">
+<div class="hero-container cid-tCSpm31sIz" style="background-color: #fcfbf5; padding: 2rem 4rem 4rem; margin-top: 0.1rem;" id="home-hero" data-rv-view="3631">
 <section data-bs-version="5.1" class="header1 cinemam5 mbr-fullscreen" group="Headers" style="border-radius: 40px;" data-bg-video="https://vimeo.com/822407432">
-
+<style>@media screen and (max-width: 768px) {
+  .hero-container {
+    padding: 0.8rem 1rem 1rem !important;
+  }
+    }</style>
     
     
     <div class="mbr-fallback-image disabled"></div>
@@ -146,9 +141,7 @@
                 <div class="text-items-wrap">
                     <div class="text-item">
                         <h5 class="item-title mbr-fonts-style mb-0 display-5">
-                            <div class="icon-wrapper">
-                                <span class="mbr-iconfont mobi-mbri-sun2 mobi-mbri"></span>
-                            </div>Expert Coaching</h5>
+                            Expert Coaching</h5>
                         <p class="item-text mbr-fonts-style mb-0 display-7">
                             Our experienced coaching team provides expert instruction to players of all levels, from beginner to advanced</p>
                     </div>
@@ -184,7 +177,7 @@
         </div>
         <div class="row mt-4">
             
-            <div class="item features-image сol-12 col-md-3 col-lg-3 active">
+            <div class="item features-image сol-12 col-md-6 col-lg-3 active">
                 <div class="item-wrapper">
                     <div class="item-img">
                         <img src="assets/images/pexels-rodnae-productions-8224422-550x367.jpg" alt="" data-slide-to="4" data-bs-slide-to="4">
@@ -239,17 +232,17 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="people3 factm5 cid-tBThSDIGLY" id="apeople3-6">
+<section data-bs-version="5.1" class="people3 factm5 cid-tBThSDIGLY" id="coaches">
     
     
     <div class="container">
         <div class="mbr-section-head">
             <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">Meet our coaches</h4>
             <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 display-7">Our experienced coaching team provides expert instruction to players of all levels, from beginner to advanced</h5>
+        <div class="d-flex justify-content-center"><div class="mbr-section-btn align-left item-footer mt-2"><a href="" class="btn btn-lg btn-primary item-btn display-7" target="_blank">View all profiles</a></div></div>
         </div>
+        
         <div class="row items-row align-items-stretch justify-content-center">
-
-
             <div class="item features-image col-12 col-md-6 col-lg-3 active">
                 <div class="item-wrapper">
                     <div class="item-img">
@@ -418,6 +411,31 @@
     </div>
 </section>
 
+<section data-bs-version="5.1" class="artistm5 content3 cid-tCV6FKbdYU" id="content03-18">
+
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12 col-lg-7 image-wrapper">
+                <img class="w-100" src="assets/images/pexels-jonathan-borba-13710137-1280x853.jpg" alt="">
+            </div>
+            <div class="col-12 col-md-12 col-lg">
+                <div class="text-wrapper">
+                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-2">
+                        Get your tennis equipment</h1>
+                    <p class="mbr-text mbr-fonts-style display-7">Looking for quality tennis equipment to improve your game? Look no further than our shop! We carry everything from tennis racquets to shoes to apparel, all from top brands in the industry. Our knowledgeable staff can help you find the perfect equipment to match your playing style and level.<br>
+                    </p>
+                    <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-7" href="#">Shop</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
@@ -429,6 +447,7 @@
   <script src="assets/embla/embla.min.js"></script>
   <script src="assets/embla/script.js"></script>
   <script src="assets/theme/js/script.js"></script>
+  <script src="assets/formoid.min.js"></script>
   
   
   
