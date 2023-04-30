@@ -1694,9 +1694,6 @@ strong {
   box-shadow: none !important;
   overflow: hidden;
 }
-.cid-tw2H87PXre {
-  background-image: url("../../../assets/images/document-1440x960.jpg");
-}
 .cid-tw2H87PXre .mbr-fallback-image.disabled {
   display: none;
 }
@@ -1708,6 +1705,7 @@ strong {
   height: 100%;
   position: absolute;
   top: 0;
+  background-image: url("../../../assets/images/background3.jpg");
 }
 .cid-tw2H87PXre .mbr-section-title {
   padding-left: 60px;
