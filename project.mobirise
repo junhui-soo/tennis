@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "about.html",
+    "currentPage": "private-session.html",
     "theme": {
       "name": "stepm5",
       "title": "StepM5",
@@ -72,7 +72,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-ED5LH9JKSZ\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-ED5LH9JKSZ');\n</script>",
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "mcSmartCart": {
       "currency": "USD"
     },
@@ -87,7 +87,7 @@
         "header_custom": "<style>\n\n</style>",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1826.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/og-img-1200x630.jpg"
       },
       "components": [
         {
@@ -1306,7 +1306,8 @@
       "settings": {
         "title": "About - Spin Tennis Academy",
         "order": "2",
-        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players."
+        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players.",
+        "meta_image": "@PROJECT_PATH@/assets/images/og-img-1200x630.jpg"
       },
       "components": [
         {
@@ -2250,7 +2251,8 @@
       "settings": {
         "title": "Contact - Spin Tennis Academy",
         "order": "3",
-        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players."
+        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players.",
+        "meta_image": "@PROJECT_PATH@/assets/images/og-img-1200x630.jpg"
       },
       "components": [
         {
@@ -3039,7 +3041,8 @@
       "settings": {
         "title": "Kids tennis - Spin Tennis Academy",
         "order": "4",
-        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players."
+        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players.",
+        "meta_image": "@PROJECT_PATH@/assets/images/og-img-1200x630.jpg"
       },
       "components": [
         {
@@ -4076,7 +4079,8 @@
       "settings": {
         "title": "Junior tennis - Spin Tennis Academy",
         "order": "5",
-        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players."
+        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players.",
+        "meta_image": "@PROJECT_PATH@/assets/images/og-img-1200x630.jpg"
       },
       "components": [
         {
@@ -5113,7 +5117,8 @@
       "settings": {
         "title": "Adult tennis - Spin Tennis Academy",
         "order": "6",
-        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players."
+        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players.",
+        "meta_image": "@PROJECT_PATH@/assets/images/og-img-1200x630.jpg"
       },
       "components": [
         {
@@ -6150,7 +6155,8 @@
       "settings": {
         "title": "Private session - Spin Tennis Academy",
         "order": "7",
-        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players."
+        "meta_descr": "Learn and perfect your spin shots while enjoying a fun, supportive community of players.",
+        "meta_image": "@PROJECT_PATH@/assets/images/og-img-1200x630.jpg"
       },
       "components": [
         {
@@ -7186,7 +7192,8 @@
     "faq.html": {
       "settings": {
         "title": "FAQ",
-        "order": "1"
+        "order": "1",
+        "meta_image": "@PROJECT_PATH@/assets/images/og-img-1200x630.jpg"
       },
       "components": [
         {
