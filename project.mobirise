@@ -63,7 +63,7 @@
     "versionPublish": "5.8.4",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/logo-128x128.png",
-    "mbrsiteDomain": "wjcrauiokq",
+    "mbrsiteDomain": "zsomb6m1jd",
     "usedWebp": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -76,7 +76,7 @@
     "mcSmartCart": {
       "currency": "USD"
     },
-    "global_after_body": "<style>\n.display-1, .display-2, .display-4, .display-5, .display-7, span, p, a {\n    line-height: 150%;\n}\n.mbr-section-btn .btn {\n    min-height: auto;\n    padding: 16px 32px;\n    font-weight: 500!important;\n}\n.cid-tCP28UJ9Ne .dropdown-item:hover,\n.cid-tCP28UJ9Ne .dropdown-item:focus {\n  background: #022f36 !important;\n  color: white !important;\n}\n</style>"
+    "global_after_body": "<style>\n.display-1, .display-2, .display-4, .display-5, .display-7, span, p, a {\n    line-height: 150%;\n}\n.mbr-section-btn .btn {\n    min-height: auto;\n    padding: 16px 32px;\n    font-weight: 500!important;\n}\n.cid-tCP28UJ9Ne .dropdown-item:hover,\n.cid-tCP28UJ9Ne .dropdown-item:focus {\n  background: #022f36 !important;\n  color: white !important;\n}\n.copyright {\n    font-size: 14px;\n    opacity: 0.7;\n}\n</style>"
   },
   "pages": {
     "index.html": {
