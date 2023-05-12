@@ -2406,6 +2406,7 @@ strong {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 @media (min-width: 1400px) {
   .cid-tCUQwdz58q .embla__button {
